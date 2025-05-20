@@ -13,13 +13,6 @@ const Hero = () => {
             className="w-full max-w-lg mx-auto mb-6"
           />
           
-          <p className="text-xl md:text-2xl text-[#0158ab] mb-8 font-arial">
-            Join us for the first LWR Coffee Date.
-            Enjoy coffee, snacks and LWR livesets with the music we love at the moment.
-            <br /><br />
-            Come as you are, but bring your best vibes! 🤎
-          </p>
-          
           <div className="flex items-center justify-center gap-4 text-[#0158ab]">
             <Coffee size={24} />
             <span className="text-xl font-medium">14.06 @ LWR HQ</span>
