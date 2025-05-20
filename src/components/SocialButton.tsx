@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Instagram, WhatsApp } from 'lucide-react';
+import { Instagram, MessageSquare } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 interface SocialButtonProps {
@@ -15,7 +15,7 @@ const SocialButton = ({ type, link, className }: SocialButtonProps) => {
       case 'instagram':
         return <Instagram className="mr-2" />;
       case 'whatsapp':
-        return <WhatsApp className="mr-2" />;
+        return <MessageSquare className="mr-2" />;
       default:
         return null;
     }
