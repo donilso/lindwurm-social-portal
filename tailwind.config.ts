@@ -21,6 +21,7 @@ export default {
 		extend: {
 			fontFamily: {
 				horizon: ['Horizon', 'sans-serif'],
+				arial: ['Arial', 'sans-serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
