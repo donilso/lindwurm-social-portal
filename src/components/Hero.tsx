@@ -15,7 +15,8 @@ const Hero = () => {
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 tracking-tight font-horizon">LWR 
 Coffee Date</h1>
           <p className="text-xl md:text-2xl text-gray-300 mb-12 font-arial">
-            Hey, want to go on a coffee date? Join us! Enjoy coffee, snacks and life-sets with the music we love at the moment.
+            Join us for the first LWR Coffee Date.
+            Enjoy coffee, snacks and LWR livesets with the music we love at the moment.
             <br /><br />
             Come as you are, but bring your best vibes! 🤎
           </p>
