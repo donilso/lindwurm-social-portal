@@ -1,6 +1,5 @@
 
 import React from 'react';
-import SocialButton from './SocialButton';
 
 const Hero = () => {
   return (
@@ -15,23 +14,15 @@ const Hero = () => {
       {/* Content */}
       <div className="container mx-auto px-6 py-20 relative z-10 animate-fade-in">
         <div className="max-w-3xl mx-auto text-center">
-          <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 tracking-tight">
-            LINDWURM RECORDS
+          <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 tracking-tight font-horizon">
+            LWR Coffee Date
           </h1>
-          <p className="text-xl md:text-2xl text-gray-300 mb-12">
-            Independent music label showcasing innovative sounds and visionary artists
+          <p className="text-xl md:text-2xl text-gray-300 mb-12 font-horizon">
+            Welcome to our first Volume of Lindwurm Records Coffee Date. 
+            Enjoy coffee, snacks and life-sets with the music we love at the moment.
+            <br /><br />
+            Come as you are, but bring your best vibes! 🤎
           </p>
-          
-          <div className="flex flex-col md:flex-row gap-6 justify-center">
-            <SocialButton 
-              type="instagram" 
-              link="https://instagram.com/lindwurmrecords"
-            />
-            <SocialButton 
-              type="whatsapp" 
-              link="https://chat.whatsapp.com/your-group-link" 
-            />
-          </div>
         </div>
       </div>
     </div>
