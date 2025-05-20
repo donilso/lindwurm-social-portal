@@ -8,7 +8,7 @@ const Header = () => {
         <div className="text-2xl md:text-3xl font-bold text-[#0158ab] tracking-tight">
           <a href="/" className="hover:opacity-80 transition-opacity">
             <img 
-              src="/lovable-uploads/5ddf8351-2717-4d54-bf55-6e59008c3fbd.png" 
+              src="/lovable-uploads/537fa95e-6c23-4515-a242-e88904fdc034.png" 
               alt="LINDWURM RECORDS" 
               className="h-12"
             />
