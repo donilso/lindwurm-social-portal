@@ -1,13 +1,15 @@
 
 import React from 'react';
 import NotionForm from './NotionForm';
+
 const FormSection = () => {
-  return <section className="py-8 bg-white">
-      <div className="container mx-auto px-6">
-        <div className="max-w-4xl mx-auto">
-          <NotionForm />
-        </div>
+  return (
+    <div className="h-full flex items-center justify-center">
+      <div className="w-full">
+        <NotionForm />
       </div>
-    </section>;
+    </div>
+  );
 };
+
 export default FormSection;

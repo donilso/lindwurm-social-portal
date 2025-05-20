@@ -9,8 +9,14 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-white text-[#0158ab]">
       <Header />
-      <Hero />
-      <FormSection />
+      <div className="container mx-auto px-6 flex flex-col md:flex-row gap-6 mt-28">
+        <div className="w-full md:w-1/2">
+          <Hero />
+        </div>
+        <div className="w-full md:w-1/2">
+          <FormSection />
+        </div>
+      </div>
       <Footer />
     </div>
   );
